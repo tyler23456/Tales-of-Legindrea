@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1684501668215310671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732b57b899b0a6f48af1911c9ad54aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+  childIndex: 0
+  children: []
+  nodeName: Read it
+  state: 0
+  started: 0
+  guid: f762a83d4fdf5bc4585bf23d567c56f9
+  position: {x: 0, y: 200, z: 0}
+  body: Nafeite, declared a resource of value by Hydra, is the primary focus of BrahmsTech. 
+    This mineral is capable of generating huge amounts of energy under certain conditions. 
+    Many scientists believe that is could be used to acheive longer lasting batteries
+    in areas where forms of renewable energy are scarce.
+  animationParameter: 
+  playAudioSource: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5027e452b104ea4987deac850811bc4, type: 3}
+  m_Name: Nafeite Research
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 1143248743243868534}
+  nodes:
+  - {fileID: 1143248743243868534}
+  - {fileID: 2159439716815683442}
+  - {fileID: -1684501668215310671}
+  blackboard:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+--- !u!114 &1143248743243868534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58bfeaa1b4593b48a871317305e3f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+  childIndex: 0
+  children:
+  - {fileID: 2159439716815683442}
+  nodeName: Root
+  state: 0
+  started: 0
+  guid: 1b5c07953d88192479f5db8f8c4b966a
+  position: {x: 0, y: 0, z: 0}
+--- !u!114 &2159439716815683442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732b57b899b0a6f48af1911c9ad54aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+  childIndex: 0
+  children:
+  - {fileID: -1684501668215310671}
+  nodeName: Prompt
+  state: 0
+  started: 0
+  guid: 692645d0a3d00a14a9aaaaed4347dec7
+  position: {x: 0, y: 100, z: 0}
+  body: 'You found an entry called BrahmsTech Areas of Research: Nafeite.  What would
+    you like to do?'
+  animationParameter: 
+  playAudioSource: 1

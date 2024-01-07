@@ -1,0 +1,402 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5880545654640327743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732b57b899b0a6f48af1911c9ad54aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+  childIndex: 0
+  children:
+  - {fileID: 8959596514593971866}
+  - {fileID: 6931721122270041530}
+  nodeName: Intro
+  state: 0
+  started: 0
+  guid: 2cfe14cdc0009a24d90be94f8d2eef3b
+  position: {x: -94, y: -65, z: 0}
+  body: What would you like to do?
+  animationParameter: 
+  playAudioSource: 0
+--- !u!114 &-4363630278977588202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58bfeaa1b4593b48a871317305e3f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+  childIndex: 0
+  children:
+  - {fileID: 121967189394374815}
+  nodeName: Root
+  state: 0
+  started: 0
+  guid: bf1e886d41c25d4409ded2ae5a6646e8
+  position: {x: -19, y: -355.96, z: 0}
+--- !u!114 &-2654224084963664960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732b57b899b0a6f48af1911c9ad54aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+  childIndex: 0
+  children: []
+  nodeName: Prompt
+  state: 0
+  started: 0
+  guid: 24873b29de06bd947bcbbebaa1bab694
+  position: {x: 56, y: -150, z: 0}
+  body: This is a teleport beacon.  You can use this for nearly instantaneous travel
+    between two points in space.  Unfortunately, no coordinates have been set.
+  animationParameter: 
+  playAudioSource: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5027e452b104ea4987deac850811bc4, type: 3}
+  m_Name: HQBeacon
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: -4363630278977588202}
+  nodes:
+  - {fileID: -4363630278977588202}
+  - {fileID: -5880545654640327743}
+  - {fileID: 6931721122270041530}
+  - {fileID: 5668518792816361134}
+  - {fileID: 8959596514593971866}
+  - {fileID: 7789341653524154689}
+  - {fileID: 5764638412960445776}
+  - {fileID: 121967189394374815}
+  - {fileID: -2654224084963664960}
+  blackboard:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+--- !u!114 &121967189394374815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2191a6368cd4db9498b0a09f2cf02044, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+  childIndex: 0
+  children:
+  - {fileID: 5764638412960445776}
+  - {fileID: -2654224084963664960}
+  nodeName: Selector
+  state: 0
+  started: 0
+  guid: 6897b131af8ae00428ea4d49b2377702
+  position: {x: -19, y: -264, z: 0}
+--- !u!114 &5668518792816361134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a23b3001af60b1b45b3d31281aed7f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+  childIndex: 0
+  children: []
+  nodeName: Scene
+  state: 0
+  started: 0
+  guid: 902a90d82c206ac4897cd555d7436a6c
+  position: {x: 56, y: 150, z: 0}
+  sceneID: 3
+  destinationName: RuinsBeacon
+--- !u!114 &5764638412960445776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5d0b5e8b52de647a5ed68d2afc2e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+  childIndex: 0
+  children:
+  - {fileID: -5880545654640327743}
+  nodeName: Lock
+  state: 0
+  started: 0
+  guid: 5394873ac90053e4186f895ddaa4a40b
+  position: {x: -94, y: -150, z: 0}
+  missionName: Stop The Gwecks From Stealing Data
+  taskName: Talk To Artemis
+  maximumTaskName: 
+--- !u!114 &6931721122270041530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732b57b899b0a6f48af1911c9ad54aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+  childIndex: 0
+  children:
+  - {fileID: 5668518792816361134}
+  nodeName: Go to Ruins
+  state: 0
+  started: 0
+  guid: 8980757f532d4ea46a697a6e6cd7ff2e
+  position: {x: 56, y: 49, z: 0}
+  body: 
+  animationParameter: 
+  playAudioSource: 0
+--- !u!114 &7789341653524154689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c44b6d0bbf0e4469fa31a0e79d1a4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+  childIndex: 0
+  children: []
+  nodeName: Save
+  state: 0
+  started: 0
+  guid: f9b3dd8486521b846a1e34cc26226788
+  position: {x: -94, y: 150, z: 0}
+--- !u!114 &8959596514593971866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732b57b899b0a6f48af1911c9ad54aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+  childIndex: 0
+  children:
+  - {fileID: 7789341653524154689}
+  nodeName: Save Game
+  state: 0
+  started: 0
+  guid: 09a5f665a42f0c94ebb40eca8efad50a
+  position: {x: -94, y: 49, z: 0}
+  body: 
+  animationParameter: 
+  playAudioSource: 0

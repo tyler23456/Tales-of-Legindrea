@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5027e452b104ea4987deac850811bc4, type: 3}
+  m_Name: WeaponContainer
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 5699648194460046916}
+  nodes:
+  - {fileID: 2730994109127557327}
+  - {fileID: 5699648194460046916}
+  blackboard:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+--- !u!114 &2730994109127557327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9d67284dfb70f4db4e6307da7c3d50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+  childIndex: 0
+  children: []
+  nodeName: RandomItem
+  state: 0
+  started: 0
+  guid: e683745fed46ce54280efe42ec6063bf
+  position: {x: 1, y: -37, z: 0}
+  sfx: 
+  itemProbabilities:
+  - name: Flame Shot
+    count: 40
+    probability: 2
+  - name: Rapid Pulsar
+    count: 30
+    probability: 1
+--- !u!114 &5699648194460046916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58bfeaa1b4593b48a871317305e3f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  board:
+    agent: {fileID: 0}
+    animation: {fileID: 0}
+    localProgress: 0
+    speed: 0
+    gameObject: {fileID: 0}
+    progress: {fileID: 0}
+    item: {fileID: 0}
+    hasItem: {fileID: 0}
+    userLock: {fileID: 0}
+    animator: {fileID: 0}
+    audioSource: {fileID: 0}
+    renderer: {fileID: 0}
+    collider: {fileID: 0}
+    hasGameObject: {fileID: 0}
+    playableDirector: {fileID: 0}
+    playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
+  childIndex: 0
+  children:
+  - {fileID: 2730994109127557327}
+  nodeName: Root
+  state: 0
+  started: 0
+  guid: 8283f2bd36f253d4ca1371d6c13cb3fb
+  position: {x: 1.0000141, y: -155.15, z: 0}
