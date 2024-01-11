@@ -29,6 +29,7 @@ MonoBehaviour:
     hasGameObject: {fileID: 0}
     playableDirector: {fileID: 0}
     playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
   childIndex: 0
   children:
   - {fileID: 4783845211804664611}
@@ -67,6 +68,7 @@ MonoBehaviour:
     hasGameObject: {fileID: 0}
     playableDirector: {fileID: 0}
     playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
   childIndex: 0
   children:
   - {fileID: -9173570477037363689}
@@ -104,6 +106,7 @@ MonoBehaviour:
     hasGameObject: {fileID: 0}
     playableDirector: {fileID: 0}
     playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
   childIndex: 0
   children:
   - {fileID: 1666533150801711000}
@@ -151,6 +154,7 @@ MonoBehaviour:
     hasGameObject: {fileID: 0}
     playableDirector: {fileID: 0}
     playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
 --- !u!114 &220066854984303487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,6 +184,7 @@ MonoBehaviour:
     hasGameObject: {fileID: 0}
     playableDirector: {fileID: 0}
     playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
   childIndex: 0
   children:
   - {fileID: 1688974006040500717}
@@ -221,6 +226,7 @@ MonoBehaviour:
     hasGameObject: {fileID: 0}
     playableDirector: {fileID: 0}
     playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
   childIndex: 0
   children: []
   nodeName: Progress
@@ -228,6 +234,7 @@ MonoBehaviour:
   started: 0
   guid: 0778438938ea0f84a940f3cce98c1364
   position: {x: -75.00003, y: 592.00006, z: 0}
+  usesComponent: 0
   missionName: Stop The Gwecks From Stealing Data
   taskName: Find A Way To Deactivate Lockdown
 --- !u!114 &1688974006040500717
@@ -259,6 +266,7 @@ MonoBehaviour:
     hasGameObject: {fileID: 0}
     playableDirector: {fileID: 0}
     playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
   childIndex: 0
   children:
   - {fileID: -7539422566810232732}
@@ -266,7 +274,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: ae5312099f77e7946956b678c7dbdf52
-  position: {x: -75.00003, y: 405, z: 0}
+  position: {x: -86.5, y: 399, z: 0}
   body: Interior security has been deactivated.
   animationParameter: 
   playAudioSource: 0
@@ -299,6 +307,7 @@ MonoBehaviour:
     hasGameObject: {fileID: 0}
     playableDirector: {fileID: 0}
     playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
   childIndex: 0
   children: []
   nodeName: Prompt
@@ -339,6 +348,7 @@ MonoBehaviour:
     hasGameObject: {fileID: 0}
     playableDirector: {fileID: 0}
     playableBinder: {fileID: 0}
+    otherAnimator: {fileID: 0}
   childIndex: 0
   children:
   - {fileID: 220066854984303487}
@@ -347,9 +357,10 @@ MonoBehaviour:
   started: 0
   guid: f6cef19b9a962894f86c5630ede31685
   position: {x: -75.00003, y: 208.00002, z: 0}
+  usesComponent: 0
   weapons: []
   suits: []
   helmets: []
   keyItems:
-  - name: Lockdown Passcodes
+  - name: Lockdown Passcode
     count: 1

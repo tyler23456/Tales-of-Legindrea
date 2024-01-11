@@ -76,10 +76,10 @@ MonoBehaviour:
   started: 0
   guid: 036b544d300a49444ae722ac79600282
   position: {x: 150, y: 196, z: 0}
-  body: This console is responsible for opening the lower hanger doors.  Unfortunately
-    there is no reason to open these doors.
+  body: This console is responsible for opening and closing the lower hanger doors. 
+    Unfortunately there is no reason to open these doors.
   animationParameter: 
-  playAudioSource: 0
+  playAudioSource: 1
 --- !u!114 &-1991655390575486162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,7 +317,7 @@ MonoBehaviour:
   started: 0
   guid: 31e1831946ea13041ad693a4deeca359
   position: {x: 0, y: 298, z: 0}
-  body: This console is responsible for opening the lower hanger doors.  What would
-    you like to do?
+  body: This console is responsible for opening and closing the lower hanger doors. 
+    What would you like to do?
   animationParameter: 
   playAudioSource: 1

@@ -190,7 +190,7 @@ MonoBehaviour:
   childIndex: 0
   children:
   - {fileID: -7566089224594087166}
-  nodeName: To Lab
+  nodeName: To lab
   state: 0
   started: 0
   guid: 574c45335b1d2b3449b5cf9ef2f69802
@@ -314,7 +314,7 @@ MonoBehaviour:
   childIndex: 0
   children:
   - {fileID: 7518532880102068880}
-  nodeName: To Ruins
+  nodeName: To ruins
   state: 0
   started: 0
   guid: e56729a8acc7a1f4caca0eee7d88860b

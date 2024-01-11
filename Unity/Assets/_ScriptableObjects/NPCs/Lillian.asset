@@ -164,7 +164,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 62a4135245d918347974f141f9c4ea16
-  position: {x: -172.99995, y: 318.45007, z: 0}
+  position: {x: -173, y: 318, z: 0}
   body: If you ever need a Health Pack, just come to me.
   animationParameter: isTalking
   playAudioSource: 0

@@ -38,11 +38,12 @@ MonoBehaviour:
   started: 0
   guid: 00e2aa9969112a149a7f90f4f3eaac78
   position: {x: -75, y: 543, z: 0}
+  usesComponent: 0
   weapons: []
   suits: []
   helmets: []
   keyItems:
-  - name: Lockdown Passcodes
+  - name: Lockdown Passcode
     count: 1
 --- !u!114 &-4782448371034507021
 MonoBehaviour:
@@ -82,9 +83,11 @@ MonoBehaviour:
   started: 0
   guid: 386cadaa9cc95014db5250c0aedccd85
   position: {x: 0, y: 301, z: 0}
-  body: During lockdown, the teleport beacon and ports will be closed off.  All doors
-    will also be closed.  However this procedure can be reversed by entering one
-    of the following codes.  Enter this code at the terminal in the Escape Pod Corridor.
+  body: During lockdown, the teleport beacon and ports will be closed off.  Most
+    doors will also be closed.  However this procedure can be reversed by entering
+    one of the following codes.  A different part of security will be deactivated
+    depending on which code is used.  Enter this code at the terminal in the Escape
+    Pod Corridor to deactivate interior security protocols.
   animationParameter: 
   playAudioSource: 0
 --- !u!114 &-1747115368766807704
@@ -125,7 +128,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: b45967b9b34d7e04899aace6613a6a0f
-  position: {x: 0, y: 409, z: 0}
+  position: {x: 0.00005321503, y: 407.8501, z: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,9 +245,9 @@ MonoBehaviour:
   started: 0
   guid: c4aa250aa6c4d4b41b5df8e3008f2bbc
   position: {x: 0, y: 193, z: 0}
-  body: Security is of the upmost importance to what we do here.  Each door requires
-    a certain keycard class to open.  The keycard classes are as follows.  Keycard
-    class A, B and C.
+  body: 'Security is of the upmost importance to what we do here.  Each door requires
+    a certain keycard class to open.  The keycard classes are as follows: Keycard
+    Class A, B and C.'
   animationParameter: 
   playAudioSource: 0
 --- !u!114 &7539823397577216088
@@ -284,7 +287,7 @@ MonoBehaviour:
   started: 0
   guid: f6420a9a9a7f7b147b0ea6079f310d61
   position: {x: -75, y: 661.8, z: 0}
-  body: You already know the Passcodes.
+  body: You already know the Passcode.
   animationParameter: 
   playAudioSource: 0
 --- !u!114 &7814676956415604688
@@ -324,12 +327,13 @@ MonoBehaviour:
   started: 0
   guid: 04883c1b326b9954e85be7931baeae64
   position: {x: 87, y: 543, z: 0}
+  usesComponent: 0
   destroyGameObject: 0
   weapons: []
   suits: []
   helmets: []
   keyItems:
-  - name: Lockdown Passcodes
+  - name: Lockdown Passcode
     count: 1
 --- !u!114 &8100052509720363365
 MonoBehaviour:
@@ -368,7 +372,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 756c4ca55a6a398489ec96942a748c31
-  position: {x: 0, y: 90, z: 0}
+  position: {x: 0.00005321503, y: 88.85002, z: 0}
   body: You found a digital textbook that appears to be for a crew member studying
     to increase their ranks.
   animationParameter: 

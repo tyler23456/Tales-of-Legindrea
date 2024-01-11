@@ -111,7 +111,7 @@ MonoBehaviour:
   started: 0
   guid: 370eca67bc6332840bae9bb92317e814
   position: {x: 0, y: 98, z: 0}
-  body: 'You found an entry called BrahmsTech Areas of Research: Sentenel.  What
+  body: 'You found an entry called Brahmstech Areas of Research: Sentenel.  What
     would you like to do?'
   animationParameter: 
   playAudioSource: 1
@@ -154,6 +154,6 @@ MonoBehaviour:
   position: {x: 0, y: 238, z: 0}
   body: Sentenel is an auto-tracking and auto-aim system that seeks to improve on
     previous methods for planetary resource mining and warfare technology.  It is
-    our hope that this software can give humans the upper hand in The Silver War.
+    our hope that this software can give humans the upper hand in The Gwetian War.
   animationParameter: 
   playAudioSource: 0

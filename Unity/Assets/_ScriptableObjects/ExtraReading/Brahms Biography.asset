@@ -37,10 +37,10 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: e9ffbc9e2295cf44a9a34840e4d84c65
-  position: {x: 0.000030517578, y: 191, z: 0}
-  body: Professor Brahms founded BrahmsTech Laboratory in 13287 U.T. after being
-    given a grant from Hydra.  Brahms was considered one of the brightest inventors
-    of his time but also displayed symptoms of paranoia.
+  position: {x: 0, y: 191, z: 0}
+  body: Professor Brahms founded Brahmstech Laboratory in 13287 UT. after being given
+    a grant from Hydra.  Brahms was considered one of the brightest inventors of
+    his time but also displayed symptoms of paranoia.
   animationParameter: 
   playAudioSource: 0
 --- !u!114 &-5267265775189076988
@@ -81,7 +81,7 @@ MonoBehaviour:
   started: 0
   guid: e097481c96551884781e08ccd01a5bef
   position: {x: 0, y: 86, z: 0}
-  body: You found an entry called The Brief History of BrahmsTech.  What would you
+  body: You found an entry called The Brief History of Brahmstech.  What would you
     like to do?
   animationParameter: 
   playAudioSource: 1

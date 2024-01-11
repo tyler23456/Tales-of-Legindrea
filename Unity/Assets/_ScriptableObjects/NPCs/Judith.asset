@@ -116,7 +116,7 @@ MonoBehaviour:
   started: 0
   guid: 5a08e7d3f672e1c4bbeb803cb7ddb69d
   position: {x: -150, y: 363, z: 0}
-  body: I said Hey.
+  body: I said hey.
   animationParameter: isTalking
   playAudioSource: 0
 --- !u!114 &-4640389233179202421
@@ -534,8 +534,7 @@ MonoBehaviour:
   started: 0
   guid: f648d153fffbd0143ba01a8208cf0feb
   position: {x: -300, y: 592, z: 0}
-  body: I have one last thing to mention.  If you are using healing abilities, you
-    are not required to aim.  In fact, you cannot use any healing abilities while
+  body: I have one last thing to mention.  You cannot use any healing abilities while
     aiming.  Well, have fun.
   animationParameter: isTalking
   playAudioSource: 0

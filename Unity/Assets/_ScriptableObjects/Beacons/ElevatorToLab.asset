@@ -233,7 +233,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 001784adb4ca7344fbc0ab0daa208b63
-  position: {x: 75, y: 287, z: 0}
+  position: {x: 74.999985, y: 287.00006, z: 0}
   body: You need to destroy the Gwetian carrier and the gwecks around the lab first
     before you can enter the lab.
   animationParameter: 

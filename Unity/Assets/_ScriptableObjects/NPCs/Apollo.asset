@@ -78,7 +78,7 @@ MonoBehaviour:
   started: 0
   guid: 34fb7119e6480bb4fa8f0df5d1173454
   position: {x: 0, y: 328, z: 0}
-  body: Hi there.  I'm Artemis' brother.  nice to meet you.
+  body: Hi there.  I'm Artemis' brother.  Nice to meet you.
   animationParameter: isTalking
   playAudioSource: 0
 --- !u!114 &-8400756517914325027

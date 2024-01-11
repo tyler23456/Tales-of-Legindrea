@@ -37,6 +37,7 @@ MonoBehaviour:
   started: 0
   guid: 957d450403526d643a469be293e5066c
   position: {x: -23, y: 112, z: 0}
+  beaconName: 
 --- !u!114 &-697434350334852491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,7 +186,7 @@ MonoBehaviour:
   childIndex: 0
   children:
   - {fileID: -5565588807884343095}
-  nodeName: Save
+  nodeName: Save game
   state: 0
   started: 0
   guid: f347a7220b8a6b0489e37272fe4851e8
