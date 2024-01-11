@@ -116,7 +116,7 @@ MonoBehaviour:
   childIndex: 0
   children:
   - {fileID: -6592709597768607278}
-  nodeName: Turn Power Back On
+  nodeName: Turn power back on
   state: 0
   started: 0
   guid: 009b2df5f07c29d408febb1c6f517847
@@ -198,6 +198,7 @@ MonoBehaviour:
   started: 0
   guid: 338c38c48c6a62f4d94001b48f556391
   position: {x: 252.99998, y: 461, z: 0}
+  usesComponent: 0
   missionName: Stop The Gwecks From Stealing Data
   taskName: Turn The Power Back On
 --- !u!114 &11400000
@@ -396,6 +397,7 @@ MonoBehaviour:
   started: 0
   guid: 84ce11b3a12083045b75e04ee4e2fbf9
   position: {x: -150, y: 91, z: 0}
+  usesComponent: 0
   missionName: Stop The Gwecks From Stealing Data
   taskName: Turn The Power Back On
   maximumTaskName: 

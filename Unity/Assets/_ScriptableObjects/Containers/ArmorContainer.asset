@@ -128,7 +128,7 @@ MonoBehaviour:
   started: 0
   guid: f55c0860c6b7e3d43a6a334e7e31705c
   position: {x: -75, y: 293.6, z: 0}
-  body: Access Granted.
+  body: This container requires a Keycard 26 to open.  Access granted.
   animationParameter: 
   playAudioSource: 0
 --- !u!114 &-4354359547363863266

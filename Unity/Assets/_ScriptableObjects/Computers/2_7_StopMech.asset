@@ -188,7 +188,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: 54171ca9765367343ac6aa3dda9c34cc
-  position: {x: 87, y: 364, z: 0}
+  position: {x: 87, y: 365, z: 0}
   usesComponent: 0
   missionName: Stop The Gwecks From Stealing Data
   taskName: Stop The Mech Weapon From Escaping

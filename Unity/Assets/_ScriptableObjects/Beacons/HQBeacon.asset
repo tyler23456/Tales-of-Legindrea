@@ -278,6 +278,7 @@ MonoBehaviour:
   started: 0
   guid: 5394873ac90053e4186f895ddaa4a40b
   position: {x: -94, y: -150, z: 0}
+  usesComponent: 0
   missionName: Stop The Gwecks From Stealing Data
   taskName: Talk To Artemis
   maximumTaskName: 
@@ -314,7 +315,7 @@ MonoBehaviour:
   childIndex: 0
   children:
   - {fileID: 5668518792816361134}
-  nodeName: Go to Ruins
+  nodeName: Go to ruins
   state: 0
   started: 0
   guid: 8980757f532d4ea46a697a6e6cd7ff2e
@@ -359,6 +360,7 @@ MonoBehaviour:
   started: 0
   guid: f9b3dd8486521b846a1e34cc26226788
   position: {x: -94, y: 150, z: 0}
+  beaconName: 
 --- !u!114 &8959596514593971866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,7 +394,7 @@ MonoBehaviour:
   childIndex: 0
   children:
   - {fileID: 7789341653524154689}
-  nodeName: Save Game
+  nodeName: Save game
   state: 0
   started: 0
   guid: 09a5f665a42f0c94ebb40eca8efad50a

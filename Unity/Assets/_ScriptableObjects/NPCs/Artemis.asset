@@ -36,7 +36,7 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: f218b274cfe99cf4ca819d7d48a008cd
-  position: {x: -323.00003, y: 141.00003, z: 0}
+  position: {x: -323, y: 141, z: 0}
   body: Well, okay then.
   animationParameter: isTalking
   playAudioSource: 0
@@ -122,7 +122,7 @@ MonoBehaviour:
   started: 0
   guid: d6b622066cbe51c4daa87ba9af724502
   position: {x: -173, y: 141, z: 0}
-  body: Okay, listen up.  Gwecks are trying to enter BrahmsTech Labs.  That's just
+  body: Okay, listen up.  Gwecks are trying to enter Brahmstech Labs.  That's just
     south of here.  What would they be after?  Sigh, I need you to handle this. 
     We've got our hands full here.
   animationParameter: isTalking

@@ -67,6 +67,7 @@ namespace GDA.Interactables
             else
                 factory.MovePlayerTo(Blackboard.teleportDestinations[destinationName].position, Blackboard.teleportDestinations[destinationName].forward);
 
+            yield return new WaitForSecondsRealtime(0.5f);
             loadingScreen.Hide();
             isSceneLoading = false;
         }

@@ -36,12 +36,12 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: db27a00d80cfe30408308b845893fdaf
-  position: {x: 0, y: 306, z: 0}
-  body: It is believed that this occurred because Legindrea A has an orbit that takes
-    well over a million Earth years to complete.  The orbit is elliptical such that
-    the planet heats up during a small fraction of its orbital cycle.  When heated,
-    poisonous gases cause mass extinctions across the planet.  Evidence suggests
-    that the Legindreans were unaware of the danger and eventually asphyxiated.
+  position: {x: 0, y: 305, z: 0}
+  body: It is believed that this occurred because Legindrea A has an orbital cycle
+    that spans a million Earth years.  The planet heats up during a small fraction
+    of this cycle, releasing poisonous gases into the atmosphere.  Evidence suggests
+    that the Legindreans were unaware of this danger and aphixiated to death.  They
+    have been extinct for 1450 years.
   animationParameter: 
   playAudioSource: 0
 --- !u!114 &-5371623364094081498
@@ -81,11 +81,11 @@ MonoBehaviour:
   state: 0
   started: 0
   guid: d18e8d58fe26f1d45aa8c9dace7332b8
-  position: {x: 0, y: 198, z: 0}
+  position: {x: 0.000002861023, y: 196.85002, z: 0}
   body: Our lab is located in the heart of The Ruins of C Legindrea A.  The ruins'
     inhabitants, the Legindreans, built this city 1700 years ago.  Based on archaeological
-    and toxicological evidence, the people bored a heavy poisonous storm that happens
-    when certain minerals are heated to really high temperatures.
+    and toxicological evidence, a heavy, gasious storm also took place around this
+    time, causing mass extinctions and depopulations.
   animationParameter: 
   playAudioSource: 0
 --- !u!114 &-4784561582954012360
