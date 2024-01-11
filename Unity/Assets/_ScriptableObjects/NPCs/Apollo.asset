@@ -202,9 +202,10 @@ MonoBehaviour:
   started: 0
   guid: b41310949aed45c46919daab8b3278f4
   position: {x: -165, y: 328, z: 0}
-  body: You can toggle the menu by using the Escape key.  You can jump using Space. 
-    And you can interact with objects the camera is facing by pressing E.  In addition,
-    you can loot enemies you have destroyed by pressing E while hovering over them.
+  body: You can toggle the menu by pressing Escape.  You can jump by pressing Space. 
+    You can hover by pressing Space while in the air.  You can interact with objects
+    the camera is facing by pressing E.  In addition, you can loot enemies you have
+    destroyed by pressing E while the camera is facing them.
   animationParameter: isTalking
   playAudioSource: 0
 --- !u!114 &-1411388334135724718
