@@ -46,7 +46,7 @@ namespace GDA.Interactables
             loadingScreen.position = new Vector2Int(0, 0);
             loadingScreen.size = new Vector2Int(1920, 1080);
             loadingScreen.border = new Color(0f, 0f, 0f, 1f);
-            loadingScreen.fill = new Color(0f, 0f, 0f, 0f);
+            loadingScreen.fill = new Color(0f, 0f, 0f, 1f);
             loadingScreen.text = "loading...";
             loadingScreen.textAlignment = TextAlignmentOptions.Center;
 
